@@ -1,6 +1,6 @@
 {
   "name": "favorite-icon-badge",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Small library for manipulating the favicon, in particular adding alert bubbles and changing images",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
@@ -9,6 +9,10 @@
     "name": "Denis Seleznev",
     "email": "hcodes@yandex.ru",
     "url": "https://github.com/favorite-icon/favorite-icon-badge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/favorite-icon/favorite-icon-badge.git"
   },
   "license": "MIT",
   "keywords": [
