@@ -1,0 +1,40 @@
+{
+  "name": "favorite-icon-badge",
+  "version": "1.2.1",
+  "description": "Small library for manipulating the favicon, in particular adding alert bubbles and changing images",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "author": {
+    "name": "Denis Seleznev",
+    "email": "hcodes@yandex.ru",
+    "url": "https://github.com/favorite-icon/favorite-icon-badge"
+  },
+  "license": "MIT",
+  "keywords": [
+    "favorite icon",
+    "favicon",
+    "favico"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "favorite-icon": "^1.1.0",
+    "rollup": "^4.21.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "test": "npm run typecheck",
+    "build": "rollup --config rollup.config.mjs",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit"
+  }
+}
